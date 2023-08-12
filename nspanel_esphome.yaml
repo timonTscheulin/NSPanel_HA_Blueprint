@@ -67,6 +67,8 @@ esphome:
 ##### TYPE OF ESP BOARD #####
 esp32:
   board: esp32dev
+  framework:
+    type: arduino
 
 captive_portal:
 
