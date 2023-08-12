@@ -8,7 +8,7 @@
 
 ##### ADVANCED CONFIGURATION - activate only when you know what you do ##############################
 substitutions:
-  baud_rate: "115200" # requires 115200 if tft is installed but can be changed to 9600 if tft upload fails and nextion switches to 9600
+  baud_rate: "9600" # requires 115200 if tft is installed but can be changed to 9600 if tft upload fails and nextion switches to 9600
   # ## usage of secrets-file ## -> comment in ###### Change ME ######
   # device_name: "nspanel-name" # Wird im Blueprint benötigt!
   # wifi_ssid: !secret nspanel_wifi_ssid # add in your esphome secrets file.
